@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+/*common*/
+a {
+	color: #222;
+}
+img {
+	max-width: 100%;
+}
+body {
+	color: #222;
+	font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+li {
+	list-style: none;
+}
+/*top flex*/
+.flex {
+	display: flex;
+}
+/*image*/
+.image {
+	width: 50%;
+}
+.image img {
+	object-fit: cover;
+	height: 80vh;
+	width: 100%;
+	vertical-align: bottom;
+}
+/*flex-right*/
+.flex-right {
+	width: 50%;
+}
+.text {
+	padding: 0 70px;
+}
+.text h2 {
+	font-size: 20px;
+	border-bottom: solid 1px gray;
+	padding-bottom: 0.25rem;
+	margin-bottom: 1rem;
+}
+.text dd {
+	border-bottom: dotted 1px gray;
+	text-align: right;
+	padding-bottom: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+.text dt {
+	float: left;
+}
+.ingredients {
+	margin-bottom: 30px;
+}
+.howto li {
+	border-bottom: dotted 1px gray;
+	padding-bottom: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+.flex-right {
+	margin-top: auto;
+}
+/*link_recipe*/
+.link-recipe {
+	text-align: center;
+	margin: 70px 0;
+}
+.link-recipe a {
+	display: inline-block;
+	width: 300px;
+	border: solid 1px #222;
+	padding: 20px;
+	text-decoration: none;
+}
+/*footer*/
+#footer {
+	text-align: center;
+	font-size: 0.8rem;
+	margin-bottom: 20px;
+}
+#footer .sns {
+	margin-bottom: 20px;
+}
+#footer a {
+	margin-right: 10px;
+}

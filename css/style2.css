@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+/*common*/
+a {
+	color: #222;
+}
+img {
+	max-width: 100%;
+}
+body {
+	color: #222;
+	font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+li {
+	list-style: none;
+}
+/*mainvisual*/
+#mainvisual img {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	object-position: center top;
+}
+/*text-content*/
+.text-content {
+	margin: 50px auto;
+	text-align: center;
+}
+.text-content h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+/*images*/
+.images {
+	display: flex;
+}
+.images li {
+	width: calc(100%/3);
+}
+.images img {
+	width: 100%;
+	height: 60vh;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+/*link_recipe*/
+.link-recipe {
+	text-align: center;
+	margin: 70px 0;
+}
+.link-recipe a {
+	display: inline-block;
+	width: 300px;
+	border: solid 1px #222;
+	padding: 20px;
+	text-decoration: none;
+}
+/*footer*/
+#footer {
+	text-align: center;
+	font-size: 0.8rem;
+	margin-bottom: 20px;
+}
+#footer .sns {
+	margin-bottom: 20px;
+}
+#footer a {
+	margin-right: 10px;
+}
+/*responsive*/
+@media screen and (max-width: 600px) {
+	/*text-content*/
+	section {
+		width: 80%;
+	}
+	/*images*/
+	.images {
+		flex-direction: column;
+	}
+	.images li {
+		width: 100%;
+	}
+	.images img {
+		height: initial;
+	}
+}
